@@ -38,7 +38,7 @@ jobs:
           action: "upload"
           app_location: "/"               # Root of the app
           api_location: ""                # No API folder
-          output_location: "dist"         # ✅ FIXED: match Expo output folder
+          output_location: "dist"         # 
           app_build_command: "npm run build"  # ✅ Explicit build command
 
   close_pull_request_job:
